@@ -1,5 +1,10 @@
 package domain;
-
+/*
+Event.java
+Event model class
+Author: Bekithemba Mrwetyana (222707077)
+Date: 14 March 2025
+*/
 import java.time.LocalDate;
 
 public class Event {
