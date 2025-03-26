@@ -5,12 +5,18 @@ public class Participant {
     private final String name;
     private final String email;
 
+
+    public Participant() {
+        this.participantID = "";
+        this.name = "";
+        this.email = "";
+    }
+
     private Participant(Builder builder) {
         this.participantID = builder.participantID;
         this.name = builder.name;
         this.email = builder.email;
     }
-
 
     public String getParticipantID() {
         return participantID;
