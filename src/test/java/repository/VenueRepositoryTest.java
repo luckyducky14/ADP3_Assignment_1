@@ -8,7 +8,6 @@ import domain.Venue;
 import factory.VenueFactory;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
-import repository.IVenueRepository;
 import repository.impl.VenueRepository;
 
 import java.util.List;
@@ -37,7 +36,7 @@ public class VenueRepositoryTest {
 
     @Test
     public void testGetAllVenues() {
-        // Adding various types of venues
+
         Venue venue1 = VenueFactory.createVenue("V001", "Conference Hall", "123 Main St");
         Venue venue2 = VenueFactory.createVenue("V002", "Auditorium", "456 Elm St");
         Venue venue3 = VenueFactory.createVenue("V003", "Banquet Hall", "789 Oak St");
@@ -47,7 +46,7 @@ public class VenueRepositoryTest {
         Venue venue7 = VenueFactory.createVenue("V007", "Golf Course", "404 Cedar Ct");
         Venue venue8 = VenueFactory.createVenue("V008", "Museum", "505 Spruce Dr");
 
-        // Adding venues to the repository
+
         venueRepository.addVenue(venue1);
         venueRepository.addVenue(venue2);
         venueRepository.addVenue(venue3);
@@ -57,7 +56,7 @@ public class VenueRepositoryTest {
         venueRepository.addVenue(venue7);
         venueRepository.addVenue(venue8);
 
-        // Retrieving all venues
+
         List<Venue> venues = venueRepository.getAllVenues();
         assertEquals(8, venues.size());
     }
