@@ -7,9 +7,9 @@ package domain;
 */
 
 public class Venue {
-    private final String venueID; // Unique identifier for the venue
-    private final String name;     // Name of the venue
-    private final String address;  // Address of the venue
+    private final String venueID;
+    private final String name;
+    private final String address;
 
 
     public Venue() {
