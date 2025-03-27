@@ -1,3 +1,8 @@
+/* Participant model class
+Author: Mpilonhle Zimela Mzimela (2301978833)
+Date: 25/03/2025
+ */
+
 package domain;
 
 public class Participant {
