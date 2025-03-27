@@ -1,3 +1,8 @@
+/* Participant model class
+Author: Mpilonhle Zimela Mzimela (2301978833)
+Date: 25/03/2025
+ */
+
 package domain;
 
 public class Participant {
@@ -5,12 +10,18 @@ public class Participant {
     private final String name;
     private final String email;
 
+
+    public Participant() {
+        this.participantID = "";
+        this.name = "";
+        this.email = "";
+    }
+
     private Participant(Builder builder) {
         this.participantID = builder.participantID;
         this.name = builder.name;
         this.email = builder.email;
     }
-
 
     public String getParticipantID() {
         return participantID;
