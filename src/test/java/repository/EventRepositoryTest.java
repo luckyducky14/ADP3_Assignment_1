@@ -23,7 +23,7 @@ public class EventRepositoryTest {
     @BeforeEach
     void setUp() {
         repository = EventRepository.getInstance();
-        event = EventFactory.createEvent("Tech Conference", LocalDate.of(2025, 5, 20), "Cape Town");
+        event = EventFactory.createEvent("", "Tech Conference",LocalDate.of(2025, 5, 20), "Cape Town");
         repository.create(event);
     }
 
