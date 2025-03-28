@@ -18,7 +18,7 @@ public class EventFactoryTest {
 
     @Test
     void testCreateEvent() {
-        Event event = EventFactory.createEvent("Tech Conference", LocalDate.of(2025, 5, 20), "Cape Town");
+        Event event = EventFactory.createEvent("", "Tech Conference", LocalDate.of(2025, 5, 20), "Cape Town");
 
         assertNotNull(event);
         assertNotNull(event.getEventID());
