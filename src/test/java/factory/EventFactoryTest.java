@@ -8,6 +8,8 @@ Date: 24 March 2025
 */
 
 import domain.Event;
+import domain.Sponsor;
+import org.junit.jupiter.api.Disabled;
 import org.junit.jupiter.api.Test;
 import java.time.LocalDate;
 import static org.junit.jupiter.api.Assertions.*;
@@ -32,4 +34,3 @@ public class EventFactoryTest {
         assertEquals("Invalid input: All fields must be provided", exception.getMessage());
     }
 }
-
