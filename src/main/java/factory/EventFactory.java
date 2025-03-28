@@ -2,7 +2,7 @@ package factory;
 /*
 EventFactory.java
 Event factory class
-Author: Bekithemba Mrwetyana (222707077)
+Author: Bekithemba Mrwetyana (222706066)
 Date: 20 March 2025
 */
 import domain.Event;
