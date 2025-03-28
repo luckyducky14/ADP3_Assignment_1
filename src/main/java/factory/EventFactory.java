@@ -1,5 +1,10 @@
 package factory;
-
+/*
+EventFactory.java
+Event model class
+Author: Bekithemba Mrwetyana (222707077)
+Date: 20 March 2025
+*/
 import domain.Event;
 
 import java.time.LocalDate;
