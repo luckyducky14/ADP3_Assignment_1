@@ -26,6 +26,7 @@ private Sponsor sponsor = SponsorFactory.createSponsor("Thando Mseleku",500.00);
        assertNotNull(created);
         System.out.println(created.toString());
 
+
     }
 
     @Test
