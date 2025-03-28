@@ -1,7 +1,7 @@
 package factory;
 /*
 EventFactory.java
-Event model class
+Event factory class
 Author: Bekithemba Mrwetyana (222707077)
 Date: 20 March 2025
 */
