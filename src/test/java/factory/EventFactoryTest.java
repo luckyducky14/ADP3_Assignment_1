@@ -28,7 +28,7 @@ public class EventFactoryTest {
     @Test
     void testCreateEventWithInvalidData() {
         Exception exception = assertThrows(IllegalArgumentException.class, () -> {
-            EventFactory.createEvent("", LocalDate.of(2025, 5, 20), "Cape Town");
+            EventFactory.createEvent("", "Tech Conference", LocalDate.of(2025, 5, 20), "Cape Town");
         });
 
         assertEquals("Invalid input: All fields must be provided", exception.getMessage());
