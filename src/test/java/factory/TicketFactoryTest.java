@@ -1,3 +1,8 @@
+/* Ticket factory test class
+Author: Luvo Nana (221376909)
+Date: 27/03/2025
+ */
+
 package factory;
 
 import domain.Ticket;
