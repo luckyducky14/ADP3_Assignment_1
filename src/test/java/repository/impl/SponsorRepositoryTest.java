@@ -2,7 +2,7 @@ package repository.impl;
   /*
  SponsorRepositoryTest.java
  SponsorRepsitoryTest model class
- Author : Thandolwethu p Mseleku(223162477)
+ Author : Thandolwethu phumelele Mseleku(223162477)
  Date:27 March 2025
   */
 
