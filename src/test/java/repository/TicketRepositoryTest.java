@@ -1,3 +1,8 @@
+/* Ticket repository test class
+Author: Luvo Nana (221376909)
+Date: 28/03/2025
+ */
+
 package repository;
 
 import domain.Ticket;
