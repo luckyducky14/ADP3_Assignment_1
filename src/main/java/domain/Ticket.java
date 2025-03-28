@@ -1,3 +1,8 @@
+/* Ticket main class
+Author: Luvo Nana (221376909)
+Date: 26/03/2025
+ */
+
 package domain;
 
 public class Ticket {
